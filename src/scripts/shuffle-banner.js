@@ -10,11 +10,11 @@ class ShuffleBanner {
         this.nameId = config.nameId;
         this.imgId = config.imgId;
         this.slides = config.slides || [
-            { name: 'PREMIUM PAINTS', img: 'assets/images/products/hardware/crown-paints-assorted.jpg', alt: 'Premium Paints' },
-            { name: 'BUILDING MATERIALS', img: 'assets/images/products/hardware/crown-walplast.jpg', alt: 'Building Materials' },
-            { name: 'QUALITY TOOLS', img: 'assets/images/products/hardware/paint-rollers.jpg', alt: 'Hardware Tools' },
-            { name: 'SECURITY LOCKS', img: 'assets/images/products/hardware/locks-and-tools.jpg', alt: 'Security Locks' },
-            { name: 'PLUMBING SUPPLIES', img: 'assets/images/products/hardware/faucets-and-tiles.jpg', alt: 'Plumbing Supplies' }
+            { name: 'PREMIUM PAINTS', img: 'assets/images/products/hardware/photo_2026-03-09_06-38-03.jpg', alt: 'Premium Paints' },
+            { name: 'BUILDING MATERIALS', img: 'assets/images/products/hardware/photo_22_2026-03-09_04-54-32.jpg', alt: 'Building Materials' },
+            { name: 'QUALITY TOOLS', img: 'assets/images/products/hardware/photo_27_2026-03-09_04-54-32.jpg', alt: 'Hardware Tools' },
+            { name: 'TILES & FLOORING', img: 'assets/images/products/hardware/photo_31_2026-03-09_04-54-32.jpg', alt: 'Tiles & Flooring' },
+            { name: 'PLUMBING SUPPLIES', img: 'assets/images/products/hardware/photo_18_2026-03-09_04-54-32.jpg', alt: 'Plumbing Supplies' }
         ];
         this.interval = config.interval || 3500;
         this.current = 0;

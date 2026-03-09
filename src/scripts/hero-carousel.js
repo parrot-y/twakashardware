@@ -12,16 +12,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (!slides.length) return;
 
+    const slideContainer = document.getElementById('heroSlides');
     let currentIndex = 0;
     let intervalId;
-    const INTERVAL = 2500; // 2.5 seconds per slide (very fast)
+    const INTERVAL = 5000; // 5 seconds per slide for a smoother feel
 
     function handleVideoState(slide, shouldPlay) {
         const video = slide.querySelector('video');
         if (!video) return;
         if (shouldPlay) {
             video.currentTime = 0;
-            video.play().catch(() => { }); // Silently catch autoplay blocks
+            video.play().catch(() => { });
         } else {
             video.pause();
         }
@@ -31,21 +32,27 @@ document.addEventListener('DOMContentLoaded', () => {
         if (index >= slides.length) index = 0;
         if (index < 0) index = slides.length - 1;
 
-        // Deactivate all slides
-        slides.forEach(slide => {
+        currentIndex = index;
+
+        // Move the container
+        if (slideContainer) {
+            slideContainer.style.transform = `translateX(-${currentIndex * (100 / slides.length)}%)`;
+        }
+
+        // Handle active classes for dots and animations
+        slides.forEach((slide, i) => {
             slide.classList.remove('active');
             handleVideoState(slide, false);
+            if (i === currentIndex) {
+                slide.classList.add('active');
+                handleVideoState(slide, true);
+            }
         });
-        dots.forEach(dot => dot.classList.remove('active'));
 
-        // Activate new slide
-        currentIndex = index;
-        void slides[currentIndex].offsetWidth; // Force reflow
-        slides[currentIndex].classList.add('active');
-        if (dots[currentIndex]) dots[currentIndex].classList.add('active');
-
-        // Play video if it's a video slide
-        handleVideoState(slides[currentIndex], true);
+        dots.forEach((dot, i) => {
+            dot.classList.remove('active');
+            if (i === currentIndex) dot.classList.add('active');
+        });
     }
 
     function nextSlide() { showSlide(currentIndex + 1); }
