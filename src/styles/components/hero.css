@@ -5,12 +5,22 @@
 .hero-section {
     position: relative;
     width: 100%;
-    height: calc(100vh - 180px);
-    min-height: 500px;
-    max-height: 900px;
+    height: 55vh;
+    /* Reduced height so images fit better without excessive cropping */
+    min-height: 400px;
+    max-height: 600px;
     overflow: hidden;
     background: #000;
 }
+
+@media (max-width: 768px) {
+    .hero-section {
+        height: 40vh;
+        min-height: 300px;
+        max-height: 400px;
+    }
+}
+
 
 /* ---- Full-Bleed Background Slides ---- */
 .hero-slides {
