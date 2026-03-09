@@ -90,7 +90,8 @@
 
 .banner-prefix {
     font-family: 'Inter', sans-serif;
-    font-size: 1.75rem;
+    font-size: 1.25rem;
+    /* Squeezed */
     font-weight: 700;
     color: #FFFFFF;
     letter-spacing: 1px;
@@ -100,17 +101,18 @@
 
 .banner-part-name {
     font-family: 'Outfit', 'Inter', sans-serif;
-    font-size: 4.5rem;
+    font-size: 3rem;
+    /* Squeezed font */
     font-weight: 950;
     color: #FFD700;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    line-height: 0.9;
+    line-height: 1;
     text-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 .banner-img-wrap {
@@ -174,14 +176,14 @@
 
 #bannerPartImg {
     /* Seamlessly integrated product image */
-    height: 195px;
+    height: 150px;
+    /* Reduced to fit header height better */
     width: auto;
-    max-width: 400px;
+    max-width: 300px;
     object-fit: contain;
     display: block;
     border: none !important;
     background: transparent !important;
-    /* Soft ambient shadow - tuned for depth */
     filter: drop-shadow(0 15px 35px rgba(0, 0, 0, 0.4));
     transition: opacity 0.3s ease;
     /* Floating Animation */
