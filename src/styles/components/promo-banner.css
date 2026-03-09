@@ -48,32 +48,26 @@
 
 .promo-text-small {
     font-family: 'Helvetica Neue', sans-serif;
-    /* Clean Sans */
     font-weight: 300;
-    /* Thin */
-    font-size: 1.5rem;
-    /* Smaller, elegant */
+    font-size: 1.2rem;
+    /* Reduced font */
     color: #FFFFFF;
     text-transform: uppercase;
-    /* ALL CAPS */
     letter-spacing: 2px;
-    /* Tracked out */
     line-height: 1;
     white-space: nowrap;
 }
 
 .promo-badge {
     background: transparent;
-    /* No block background, just text */
     color: #FFFFFF;
     font-family: 'Helvetica Neue', sans-serif;
     font-weight: 400;
-    /* Regular weight */
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    /* Reduced font */
     text-transform: uppercase;
     padding: 0;
     transform: none;
-    /* Remove skew */
     box-shadow: none;
     display: inline-block;
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -88,15 +82,14 @@
 }
 
 .promo-car-image {
-    height: 140px;
-    /* Slightly smaller for elegance */
+    height: 120px;
+    /* Squeezed slightly */
     width: auto;
     object-fit: contain;
     filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.3));
-    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0) 70%);
+    background: transparent;
     border-radius: 50%;
     transform: none;
-    /* No initial scale */
     transition: transform 0.5s ease;
 }
 
