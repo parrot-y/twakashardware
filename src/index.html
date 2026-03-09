@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Premium hardware materials and tools at Twakas Hardware. Quality supplies for every project at competitive prices. Kiambu's trusted partner for paints, building materials, and tools.">
+    <meta name="keywords"
+        content="hardware stores Kiambu, building materials Kenya, Twakas Hardware, paints, tools, plumbing supplies">
+    <meta name="author" content="Twakas Hardware">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gracefulmotion.com/">
+    <meta property="og:title" content="Premium Hardware Supplies | Twakas Hardware">
+    <meta property="og:description"
+        content="Shop high-quality hardware materials, paints, and tools. Quality guaranteed, nationwide delivery.">
+    <meta property="og:image" content="assets/images/products/hardware/crown-paints-assorted.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://twakashardware.com/">
+    <meta property="twitter:title" content="Premium Hardware Supplies | Twakas Hardware">
+    <meta property="twitter:description"
+        content="Shop high-quality hardware materials, paints, and tools. Quality guaranteed, nationwide delivery.">
+    <meta property="twitter:image" content="assets/images/products/hardware/crown-paints-assorted.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@600;700;800&family=Kaushan+Script&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/components/contact-bar.css">
+    <link rel="stylesheet" href="styles/components/navigation.css">
+    <link rel="stylesheet" href="styles/components/hero.css">
+    <link rel="stylesheet" href="styles/components/top-cat-banner.css">
+    <link rel="stylesheet" href="styles/components/categories-menu.css">
+    <link rel="stylesheet" href="styles/components/promo-banner.css">
+    <link rel="stylesheet" href="styles/components/dark-sections.css">
+    <link rel="stylesheet" href="styles/components/quick-categories.css">
+    <link rel="stylesheet" href="styles/components/gallery.css">
+    <link rel="stylesheet" href="styles/components/companies.css">
+    <link rel="stylesheet" href="styles/components/featured-products.css">
+    <link rel="stylesheet" href="styles/components/footer.css">
+    <link rel="manifest" href="manifest.json">
+    <!-- Proactive Service Worker Cleanup -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (registrations) {
+                for (let registration of registrations) {
+                    registration.unregister();
+                }
+            });
+        }
+    </script>
+    <!-- Service Worker Disabled Temporarily -->
+    <!--
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('sw.js')
+                    .then(reg => console.log('Service Worker Registered'))
+                    .catch(err => console.log('Service Worker Error:', err));
+            });
+        }
+    </script>
+    -->
+</head>
+
+<body>
+
+    <!-- ===== NEW HEADER TOP BAR ===== -->
+    <div class="header-top-bar">
+
+        <!-- Logo -->
+        <a href="index.html" class="header-logo-col" aria-label="Twakas Hardware Home">
+            <i class="fas fa-tools" style="font-size: 1.5rem; color: #d32f2f; margin-right: 10px;"></i>
+            <h1
+                style="font-size: 1.25rem; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; color: #1e1e1e; margin: 0;">
+                Twakas Hardware</h1>
+        </a>
+
+        <!-- Animated Banner Column -->
+        <div class="header-banner-col" id="headerBanner">
+            <div id="headerBannerInner">
+                <div class="banner-text-group">
+                    <span class="banner-prefix">Get the best</span>
+                    <span class="banner-part-name" id="bannerPartName">PAINTS & FINISHES</span>
+                </div>
+
+                <div class="banner-img-wrap">
+                    <img id="bannerPartImg" src="assets/images/products/hardware/crown-paints-assorted.jpg"
+                        alt="Hardware Supplies" loading="eager">
+                </div>
+
+                <span class="banner-specials-tag">March Specials</span>
+            </div>
+        </div>
+
+        <div class="header-contacts-col">
+            <a href="tel:+254728173181" class="hdr-contact-btn phone" title="Call Us">
+                <i class="fas fa-phone"></i>
+            </a>
+            <a href="https://wa.me/254728173181" class="hdr-contact-btn whatsapp" title="WhatsApp" target="_blank"
+                rel="noopener">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="mailto:info@twakashardware.com" class="hdr-contact-btn email" title="Email Us">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Hero Section (contains navbar overlay) -->
+    <section class="hero-section" id="hero">
+
+        <!-- Transparent Category Navbar (overlays hero) -->
+        <nav class="navbar" id="navbar">
+            <div class="container">
+                <div class="nav-content-v2">
+                    <!-- Categories Button (mega-menu hover stays) -->
+                    <div class="categories-menu" id="headerCategories">
+                        <button class="categories-btn-v2" id="categoriesBtn">
+                            <i class="fas fa-bars"></i>
+                            <span>CATEGORIES</span>
+                        </button>
+
+                        <!-- Mega Menu Dropdown -->
+                        <div class="mega-menu" id="categoriesDropdown">
+                            <div class="mega-menu-content">
+                                <!-- Dynamic content via categories-menu.js -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Inline Category Links (JamesEdition style) -->
+                    <div class="nav-cat-links" id="navCatLinks">
+                        <a href="catalog.html?category=paints" class="nav-cat-link">Paints & Finishes</a>
+                        <a href="catalog.html?category=building" class="nav-cat-link">Building Materials</a>
+                        <a href="catalog.html?category=tools" class="nav-cat-link">Tools & Hardware</a>
+                        <a href="catalog.html?category=plumbing" class="nav-cat-link">Plumbing & Sanitary</a>
+                        <a href="catalog.html?category=tiles" class="nav-cat-link">Tiles & Flooring</a>
+                    </div>
+
+                    <!-- Search Bar V2 -->
+                    <div class="nav-search-v2">
+                        <form action="catalog.html" method="GET" class="search-form-v2">
+                            <input type="text" name="search" class="search-input-v2"
+                                placeholder="Search by part name or category..." autocomplete="off">
+                            <button type="submit" class="search-submit-v2"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+
+                    <!-- Right Actions -->
+                    <div class="nav-actions-v2">
+                        <button class="nav-icon-btn-v2 cart-btn" aria-label="Cart">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="cart-badge">0</span>
+                        </button>
+                        <button class="mobile-hamburger" id="mobileMenuBtn" aria-label="Menu">
+                            <i class="fas fa-bars"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile slide-out menu -->
+            <div class="nav-links-v2" id="navLinks">
+                <a href="catalog.html?category=paints" class="nav-link-v2">Paints &amp; Finishes</a>
+                <a href="catalog.html?category=building" class="nav-link-v2">Building Materials</a>
+                <a href="catalog.html?category=tools" class="nav-link-v2">Tools &amp; Hardware</a>
+                <a href="catalog.html?category=plumbing" class="nav-link-v2">Plumbing &amp; Sanitary</a>
+                <a href="catalog.html?category=tiles" class="nav-link-v2">Tiles &amp; Flooring</a>
+                <a href="catalog.html" class="nav-link-v2">All Catalog</a>
+                <a href="#deals" class="nav-link-v2">Hot Deals</a>
+                <div class="mobile-contact-info">
+                    <a href="tel:+254728173181" class="nav-link-v2">
+                        <i class="fas fa-phone"></i> +254 728 173 181
+                    </a>
+                    <a href="mailto:info@twakashardware.com" class="nav-link-v2">
+                        <i class="fas fa-envelope"></i> info@twakashardware.com
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Background Photo Slides -->
+        <div class="hero-slides" id="heroSlides">
+            <!-- Slide 1 -->
+            <div class="hero-bg-slide active"
+                style="background-image: url('assets/images/hero/photo_2026-03-09_06-14-38.jpg'); background-size: cover; background-position: center;">
+            </div>
+            <!-- Slide 2 -->
+            <div class="hero-bg-slide"
+                style="background-image: url('assets/images/hero/photo_2026-03-09_06-14-55.jpg'); background-size: cover; background-position: center;">
+            </div>
+            <!-- Slide 3 -->
+            <div class="hero-bg-slide"
+                style="background-image: url('assets/images/hero/photo_2026-03-09_06-15-09.jpg'); background-size: cover; background-position: center;">
+            </div>
+            <!-- Slide 4 -->
+            <div class="hero-bg-slide"
+                style="background-image: url('assets/images/hero/photo_2026-03-09_06-24-50.jpg'); background-size: cover; background-position: center;">
+            </div>
+        </div>
+
+        <!-- Dark gradient overlay for text readability -->
+        <div class="hero-gradient-overlay"></div>
+
+        <!-- Bottom-left text overlay -->
+        <div class="hero-bottom-content">
+            <h1 class="hero-title-je">Premium<br>Hardware</h1>
+            <p class="hero-stats-line">QUALITY PAINTS &bull; BUILDING MATERIALS &bull; TRUSTED SUPPLIES &bull; KIAMBU
+                DELIVERY</p>
+            <a href="catalog.html" class="hero-cta-btn">SHOP NOW</a>
+        </div>
+
+        <!-- Bottom-right pagination -->
+        <div class="hero-pagination">
+            <!-- Hero dot for 4 slides -->
+            <div class="hero-dots" id="heroDots">
+                <span class="hero-dot active" data-slide="0"></span>
+                <span class="hero-dot" data-slide="1"></span>
+                <span class="hero-dot" data-slide="2"></span>
+                <span class="hero-dot" data-slide="3"></span>
+            </div>
+            <div class="hero-arrows">
+                <button class="hero-arrow" id="heroPrev" aria-label="Previous slide">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="hero-arrow" id="heroNext" aria-label="Next slide">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Featured Products Section (Replaces Our Legacy) -->
+    <section class="featured-products" id="featured-products">
+        <div class="container">
+            <div class="featured-header reveal-element reveal-from-bottom">
+                <p class="section-tag">// PREMIUM SELECTION</p>
+                <h2 class="section-title-v2">FEATURED PRODUCTS</h2>
+            </div>
+
+            <div class="featured-grid">
+                <!-- 1. Crown Paints -->
+                <div class="featured-card reveal-element reveal-from-left" data-delay="0">
+                    <div class="featured-img-wrap">
+                        <img src="assets/images/products/hardware/crown-paints-assorted.jpg" alt="Crown Paints">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Premium Paints</h3>
+                        <p>Paints & Finishes</p>
+                    </div>
+                </div>
+
+                <!-- 2. Skim Coat -->
+                <div class="featured-card reveal-element reveal-from-bottom" data-delay="100">
+                    <div class="featured-img-wrap">
+                        <img src="assets/images/products/hardware/crown-walplast.jpg" alt="Skim Coat">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Walplast Skim Coat</h3>
+                        <p>Building Materials</p>
+                    </div>
+                </div>
+
+                <!-- 3. Paint Rollers -->
+                <div class="featured-card reveal-element reveal-from-right" data-delay="200">
+                    <div class="featured-img-wrap">
+                        <img src="assets/images/products/hardware/paint-rollers.jpg" alt="Paint Rollers">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Paint Rollers</h3>
+                        <p>Tools & Hardware</p>
+                    </div>
+                </div>
+
+                <!-- 4. Security Locks -->
+                <div class="featured-card reveal-element reveal-zoom-in" data-delay="300">
+                    <div class="featured-img-wrap">
+                        <img src="assets/images/products/hardware/locks-and-tools.jpg" alt="Security Locks">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Security Locks</h3>
+                        <p>Tools & Hardware</p>
+                    </div>
+                </div>
+
+                <!-- 5. Faucets & Taps -->
+                <div class="featured-card reveal-element reveal-from-left" data-delay="0">
+                    <div class="featured-img-wrap">
+                        <img src="assets/images/products/hardware/faucets-and-tiles.jpg" alt="Faucets">
+                    </div>
+                    <div class="featured-info">
+                        <h3>Kitchen Faucets</h3>
+                        <p>Plumbing & Sanitary</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="view-more-container reveal-element reveal-from-bottom">
+                <a href="catalog.html" class="btn btn-secondary btn-lg">VIEW ALL PRODUCTS</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wide Promotional Banner (Header Style) -->
+    <section class="wide-promo-banner reveal-element reveal-from-bottom">
+        <div class="wide-banner-col" id="wideBanner">
+            <div id="wideBannerInner">
+                <div class="banner-text-group">
+                    <span class="banner-prefix">Explore our</span>
+                    <span class="banner-part-name" id="widePartName">BUILDING TOOLS</span>
+                </div>
+
+                <div class="banner-img-wrap">
+                    <img id="widePartImg" src="assets/images/products/hardware/paint-rollers.jpg" alt="Building Tools">
+                </div>
+
+                <span class="banner-specials-tag">Available Now</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Categories Section -->
+    <section class="quick-categories" id="categories-section">
+        <div class="container">
+            <div class="quick-categories-header reveal-element reveal-from-bottom">
+                <p class="section-tag">// POPULAR CATEGORIES</p>
+                <h2 class="section-title-v2">QUICK ACCESS</h2>
+            </div>
+
+            <div class="categories-grid">
+                <!-- 1. Paints -->
+                <a href="catalog.html?category=paints" class="category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fas fa-paint-roller category-icon"></i>
+                    </div>
+                    <div class="category-info">
+                        <span class="category-title">Paints & Finishes</span>
+                        <span class="category-meta">Interior, Exterior, Texture</span>
+                    </div>
+                </a>
+
+                <!-- 2. Building Materials -->
+                <a href="catalog.html?category=building" class="category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fas fa-trowel-bricks category-icon"></i>
+                    </div>
+                    <div class="category-info">
+                        <span class="category-title">Building Materials</span>
+                        <span class="category-meta">Cement, Skim Coat, Waterproofing</span>
+                    </div>
+                </a>
+
+                <!-- 3. Tools -->
+                <a href="catalog.html?category=tools" class="category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fas fa-hammer category-icon"></i>
+                    </div>
+                    <div class="category-info">
+                        <span class="category-title">Tools & Hardware</span>
+                        <span class="category-meta">Hand Tools, Locks, Brushes</span>
+                    </div>
+                </a>
+
+                <!-- 4. Plumbing -->
+                <a href="catalog.html?category=plumbing" class="category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fas fa-faucet category-icon"></i>
+                    </div>
+                    <div class="category-info">
+                        <span class="category-title">Plumbing & Sanitary</span>
+                        <span class="category-meta">Taps, Showers, Pipes</span>
+                    </div>
+                </a>
+
+                <!-- 5. Tiles -->
+                <a href="catalog.html?category=tiles" class="category-card">
+                    <div class="category-icon-wrapper">
+                        <i class="fas fa-layer-group category-icon"></i>
+                    </div>
+                    <div class="category-info">
+                        <span class="category-title">Tiles & Flooring</span>
+                        <span class="category-meta">Floor, Wall, Decor</span>
+                    </div>
+                </a>
+            </div>
+
+            <div style="text-align: center; margin-top: var(--space-8);">
+                <a href="catalog.html" class="btn btn-secondary btn-lg">VIEW ALL CATEGORIES</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section reveal-element reveal-from-bottom" id="gallery">
+        <div class="container">
+            <div class="gallery-header">
+                <p class="section-tag">// OUR WORK & OFFERS</p>
+                <h2 class="section-title-v2">GALLERY</h2>
+            </div>
+
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <div class="gallery-item">
+                    <img src="assets/images/gallery/media__1773056524225.jpg" alt="Gallery Image 1"
+                        class="gallery-image" loading="lazy">
+                </div>
+                <!-- Gallery Item 2 -->
+                <div class="gallery-item">
+                    <img src="assets/images/gallery/media__1773056533521.jpg" alt="Gallery Image 2"
+                        class="gallery-image" loading="lazy">
+                </div>
+                <!-- Gallery Item 3 -->
+                <div class="gallery-item">
+                    <img src="assets/images/gallery/media__1773056539193.jpg" alt="Gallery Image 3"
+                        class="gallery-image" loading="lazy">
+                </div>
+                <!-- Gallery Item 4 -->
+                <div class="gallery-item">
+                    <img src="assets/images/gallery/media__1773056545107.jpg" alt="Gallery Image 4"
+                        class="gallery-image" loading="lazy">
+                </div>
+                <!-- Gallery Item 5 -->
+                <div class="gallery-item">
+                    <img src="assets/images/gallery/media__1773056549736.jpg" alt="Gallery Image 5"
+                        class="gallery-image" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Brands Section -->
+    <section class="companies-section reveal-element reveal-from-bottom">
+        <div class="companies-container">
+            <div class="companies-header">
+                <h2>OUR TRUSTED BRANDS</h2>
+                <p>We stock products from leading hardware and building materials manufacturers</p>
+            </div>
+            <div class="companies-viewport">
+                <div class="companies-track">
+                    <!-- Brand Set 1 -->
+                    <div class="company-item"><span class="company-name">CROWN PAINTS</span></div>
+                    <div class="company-item"><span class="company-name">DURA COAT</span></div>
+                    <div class="company-item"><span class="company-name">BAMBURI</span></div>
+                    <div class="company-item"><span class="company-name">BOSCH</span></div>
+                    <div class="company-item"><span class="company-name">STANLEY</span></div>
+                    <div class="company-item"><span class="company-name">MAKITA</span></div>
+                    <!-- Brand Set 2 -->
+                    <div class="company-item"><span class="company-name">CROWN PAINTS</span></div>
+                    <div class="company-item"><span class="company-name">DURA COAT</span></div>
+                    <div class="company-item"><span class="company-name">BAMBURI</span></div>
+                    <div class="company-item"><span class="company-name">BOSCH</span></div>
+                    <div class="company-item"><span class="company-name">STANLEY</span></div>
+                    <div class="company-item"><span class="company-name">MAKITA</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <!-- Brand -->
+                <div class="footer-col footer-brand">
+                    <h2 class="logo">
+                        <i class="fas fa-car-side"></i>
+                        <span>Twakas Hardware</span>
+                    </h2>
+                    <p class="footer-desc">
+                        Quality materials for all your building and renovation needs.<br>
+                        <strong>Location:</strong> Kiambu Town.
+                    </p>
+                    <div class="footer-socials">
+                        <a href="https://www.facebook.com/twakashardware" class="social-link" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/twakashardware" class="social-link" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/254728173181" class="social-link" target="_blank"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="footer-col">
+                    <h3>EXPLORE</h3>
+                    <ul class="footer-links">
+                        <li><a href="catalog.html">Catalog</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#about-us">Our Story</a></li>
+                        <li><a href="#">Track Order</a></li>
+                    </ul>
+                </div>
+
+                <!-- Support -->
+                <div class="footer-col">
+                    <h3>SUPPORT</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="footer-col footer-newsletter">
+                    <h3>NEWSLETTER</h3>
+                    <p>Subcribe for exclusive building tips and offers.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Email Address">
+                        <button type="submit" class="btn btn-primary">JOIN</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 TWAKAS HARDWARE. ALL RIGHTS RESERVED.</p>
+                <div class="footer-legal">
+                    <a href="#">PRIVACY</a>
+                    <a href="#">TERMS</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Mobile Bottom Navigation -->
+    <nav class="mobile-bottom-nav">
+        <a href="index.html" class="bottom-nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="catalog.html" class="bottom-nav-item">
+            <i class="fas fa-th-large"></i>
+            <span>Catalog</span>
+        </a>
+        <button class="bottom-nav-item cart-btn" aria-label="Cart">
+            <div class="bottom-cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge">0</span>
+            </div>
+            <span>Cart</span>
+        </button>
+        <a href="https://wa.me/254728173181" class="bottom-nav-item" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+            <span>WhatsApp</span>
+        </a>
+    </nav>
+
+    <script src="scripts/business-config.js"></script>
+    <script src="scripts/product-data.js"></script>
+    <script src="scripts/navigation.js"></script>
+    <script src="scripts/categories-menu.js"></script>
+    <script src="scripts/product-carousel.js"></script>
+    <script src="scripts/hero-carousel.js"></script>
+    <script src="scripts/animations.js"></script>
+    <script src="scripts/cart.js"></script>
+    <script src="scripts/shuffle-banner.js"></script>
+    <script src="scripts/search-autocomplete.js"></script>
+    <script>
+        // Make featured product cards clickable → go to catalog
+        document.querySelectorAll('.featured-card').forEach(card => {
+            card.style.cursor = 'pointer';
+            card.addEventListener('click', () => {
+                window.location.href = 'catalog.html';
+            });
+        });
+    </script>
+</body>
+
+</html>
