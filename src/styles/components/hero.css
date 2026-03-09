@@ -5,19 +5,18 @@
 .hero-section {
     position: relative;
     width: 100%;
-    height: 55vh;
-    /* Reduced height so images fit better without excessive cropping */
-    min-height: 400px;
-    max-height: 600px;
+    height: 100vh;
+    /* FULL PAGE */
+    min-height: 600px;
     overflow: hidden;
-    background: #000;
+    background: #111;
+    /* Dark background for 'contain' gaps */
 }
 
 @media (max-width: 768px) {
     .hero-section {
-        height: 40vh;
-        min-height: 300px;
-        max-height: 400px;
+        height: 100vh;
+        min-height: 500px;
     }
 }
 
@@ -32,7 +31,8 @@
 .hero-bg-slide {
     position: absolute;
     inset: 0;
-    background-size: cover;
+    background-size: contain;
+    /* UNZOOMED - show full image */
     background-position: center;
     background-repeat: no-repeat;
     opacity: 0;
@@ -82,32 +82,36 @@
 /* ---- Bottom-Left Text Overlay ---- */
 .hero-bottom-content {
     position: absolute;
-    bottom: 60px;
-    left: 50px;
+    bottom: 40px;
+    /* Squeezed down */
+    left: 40px;
     z-index: 10;
-    max-width: 700px;
+    max-width: 500px;
+    /* Squeezed width */
 }
 
 .hero-title-je {
     font-family: 'Outfit', 'Inter', sans-serif;
-    font-size: clamp(3rem, 7vw, 5.5rem);
+    font-size: clamp(2rem, 5vw, 4rem);
+    /* Reduced font size */
     font-weight: 900;
-    line-height: 0.9;
+    line-height: 1;
     color: #fff;
     text-transform: none;
     letter-spacing: -1px;
-    margin: 0 0 20px 0;
+    margin: 0 0 15px 0;
     text-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
 }
 
 .hero-stats-line {
     font-family: 'Inter', sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
+    /* Slightly smaller */
     font-weight: 600;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: rgba(255, 255, 255, 0.65);
     text-transform: uppercase;
-    margin: 0 0 30px 0;
+    margin: 0 0 25px 0;
 }
 
 /* CTA Button */
