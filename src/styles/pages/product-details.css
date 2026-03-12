@@ -434,7 +434,7 @@
 }
 
 .pd-qty-btn:hover {
-    background: rgba(184, 134, 11, 0.08);
+    background: rgba(45, 52, 54, 0.08);
     color: var(--accent-primary);
 }
 

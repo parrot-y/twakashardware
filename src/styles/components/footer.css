@@ -3,12 +3,11 @@
    ================================ */
 
 .site-footer {
-    background: #786C3B !important;
-    /* Mustard Gold */
+    background: var(--footer-bg) !important;
     color: #FFFFFF;
     padding: 100px 0 0 0;
     font-family: 'Inter', sans-serif;
-    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    border-top: 4px solid var(--accent-primary);
     position: relative;
     overflow: hidden;
 }
@@ -46,7 +45,7 @@
 }
 
 .footer-brand h2 i {
-    color: var(--accent-primary, #FFD700);
+    color: var(--accent-primary);
 }
 
 .footer-desc {
@@ -76,11 +75,11 @@
 }
 
 .social-icon:hover {
-    background: var(--accent-primary, #FFD700);
-    color: #000;
+    background: var(--accent-primary);
+    color: #fff;
     border-color: var(--accent-primary);
     transform: translateY(-5px) rotate(8deg);
-    box-shadow: 0 10px 20px rgba(255, 215, 0, 0.2);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 /* Columns & Links */
@@ -164,8 +163,8 @@
 }
 
 .btn-footer-cta {
-    background: var(--accent-primary, #FFD700);
-    color: #000;
+    background: var(--accent-primary);
+    color: #fff;
     border: none;
     padding: 0 25px;
     border-radius: 4px;

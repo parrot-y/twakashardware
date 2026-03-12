@@ -25,23 +25,31 @@
     --font-weight-semi: 600;
 
     /* Base Shadows */
-    --shadow-glow: 0 0 20px rgba(255, 215, 0, 0.1);
+    --shadow-glow: 0 0 20px rgba(45, 52, 54, 0.1);
 
     /* Max Widths */
     --container-max-width: 1400px;
 }
 
-/* Light Theme (Default — Only Theme) */
+/* Light Theme - Modern Industrial (Charcoal Accent) */
 :root {
-    --bg-primary: #F2F2F7;
+    --bg-primary: #F8F9FA;
     --bg-surface: #FFFFFF;
-    --accent-primary: #B8860B;
-    --accent-secondary: #8B6508;
-    --text-primary: #1C1C1E;
-    --text-secondary: #636366;
-    --border-color: rgba(0, 0, 0, 0.1);
-    --glass-bg: rgba(255, 255, 255, 0.85);
-    --glass-border: rgba(0, 0, 0, 0.08);
+    --accent-primary: #2D3436;
+    /* Dark Charcoal Gray */
+    --accent-secondary: #1E272E;
+    /* Deeper Charcoal */
+    --accent-dark: #121212;
+    --header-bg: #263238;
+    /* Charcoal Grey */
+    --footer-bg: #1A1D1E;
+    --text-primary: #2D3436;
+    --text-secondary: #546E7A;
+    --border-color: rgba(45, 52, 54, 0.1);
+    --glass-bg: rgba(255, 255, 255, 0.9);
+    --glass-border: rgba(45, 52, 54, 0.08);
+    --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.08);
 }
 
 /* Reset & Base Styles */
@@ -154,7 +162,7 @@ a {
 .btn-primary:hover {
     background: var(--accent-secondary);
     transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(255, 215, 0, 0.2);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
 .btn-outline {
