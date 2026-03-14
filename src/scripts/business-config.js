@@ -7,7 +7,7 @@ window.BusinessConfig = {
     phone: '254728173181',
     phoneDisplay: '+254 728 173 181',
     whatsapp: '254728173181',
-    email: 'info@twakashardware.com', // Placeholder if not provided
+    email: 'info@t-wakashardware.co.ke', // Placeholder if not provided
     businessName: 'T-Wakas Hardware',
     location: 'Kiambu',
 

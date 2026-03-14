@@ -1,5 +1,5 @@
 /**
- * Twakas Hardware — Animation Layer v2
+ * T-Wakas Hardware — Animation Layer v2
  * Scroll-triggered reveals + dynamic card stagger (works on all pages)
  */
 

@@ -1,5 +1,5 @@
 /**
- * Catalog Filter Logic - Twakas Hardware
+ * Catalog Filter Logic - T-Wakas Hardware
  * Dynamically renders hardware products from RenovyteProducts database
  */
 

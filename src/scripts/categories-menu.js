@@ -1,5 +1,5 @@
 /**
- * Twakas Hardware — Category Sidebar v3
+ * T-Wakas Hardware — Category Sidebar v3
  * A premium slide-in sidebar with accordion categories.
  * Works on both Desktop (categories button) and Mobile (hamburger).
  */
@@ -104,7 +104,7 @@ class CategorySidebar {
             <div class="csb-header-logo">
                 <i class="fas fa-tools" style="font-size: 1.5rem; color: #fff; margin-right: 15px;"></i>
                 <div class="csb-brand-text">
-                    <span class="csb-brand-name">TWAKAS HARDWARE</span>
+                    <span class="csb-brand-name">T-WAKAS HARDWARE</span>
                     <span class="csb-brand-sub">Quality Materials</span>
                 </div>
             </div>
