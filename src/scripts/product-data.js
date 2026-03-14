@@ -488,8 +488,8 @@ const HardwareProducts = [
         price: "Ask for Price",
         rating: 4.8,
         stock: 50,
-        image: "assets/images/products/hardware/DURACOAT SKIM COAT.jpg",
-        images: ["assets/images/products/hardware/DURACOAT SKIM COAT.jpg"],
+        image: "assets/images/products/hardware/duracoat skim coat.jpg",
+        images: ["assets/images/products/hardware/duracoat skim coat.jpg"],
         brand: "DuraCoat",
         specs: { "Brand": "DuraCoat" }
     },

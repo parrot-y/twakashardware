@@ -27,8 +27,8 @@ class ShuffleBanner {
         this.partImgEl = document.getElementById(this.imgId);
         this.bannerInnerEl = document.getElementById(this.containerId);
 
-        if (!this.partNameEl || !this.partImgEl || !this.bannerInnerEl) {
-            console.warn(`ShuffleBanner: Elements not found for ${this.containerId}`);
+        if (!this.partNameEl || !this.bannerInnerEl) {
+            console.warn(`ShuffleBanner: Core elements not found for ${this.containerId}`);
             return;
         }
 
@@ -48,30 +48,37 @@ class ShuffleBanner {
         setTimeout(() => {
             this.partNameEl.textContent = slide.name;
 
-            // Preload the image to prevent "black box" / flicker
-            const tempImg = new Image();
-            tempImg.onload = () => {
-                this.partImgEl.src = slide.img;
-                this.partImgEl.alt = slide.alt;
+            if (this.partImgEl) {
+                // Preload the image to prevent "black box" / flicker
+                const tempImg = new Image();
+                tempImg.onload = () => {
+                    this.partImgEl.src = slide.img;
+                    this.partImgEl.alt = slide.alt;
 
-                // Fade in ONLY after image is ready
+                    // Fade in ONLY after image is ready
+                    requestAnimationFrame(() => {
+                        this.bannerInnerEl.classList.remove('banner-fade-out');
+                        this.bannerInnerEl.classList.add('banner-fade-in');
+                    });
+                };
+
+                tempImg.onerror = () => {
+                    this.partImgEl.src = slide.img;
+                    this.bannerInnerEl.classList.remove('banner-fade-out');
+                };
+
+                tempImg.src = slide.img;
+            } else {
+                // Text-only banner
                 requestAnimationFrame(() => {
                     this.bannerInnerEl.classList.remove('banner-fade-out');
                     this.bannerInnerEl.classList.add('banner-fade-in');
                 });
+            }
 
-                setTimeout(() => {
-                    this.bannerInnerEl.classList.remove('banner-fade-in');
-                }, 500);
-            };
-
-            tempImg.onerror = () => {
-                // Fallback to avoid getting stuck
-                this.partImgEl.src = slide.img;
-                this.bannerInnerEl.classList.remove('banner-fade-out');
-            };
-
-            tempImg.src = slide.img;
+            setTimeout(() => {
+                this.bannerInnerEl.classList.remove('banner-fade-in');
+            }, 500);
         }, 350);
     }
 
