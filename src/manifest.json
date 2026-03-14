@@ -1,6 +1,6 @@
 {
-    "name": "Twakas Hardware",
-    "short_name": "Twakas",
+    "name": "T-Wakas Hardware",
+    "short_name": "T-Wakas",
     "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#1a1a1a",

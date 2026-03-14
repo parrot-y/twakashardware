@@ -214,7 +214,7 @@ function initCartLogic() {
         message += `💰 *GRAND TOTAL: KES ${total.toLocaleString()}*\n`;
         message += `--------------------------------\n\n`;
         message += `⚠️ *Kindly confirm availability and delivery time.*\n\n`;
-        message += `_Please acknowledge this order to proceed with delivery. Thank you for shopping with Twakas Hardware!_`;
+        message += `_Please acknowledge this order to proceed with delivery. Thank you for shopping with T-Wakas Hardware!_`;
 
         if (window.BusinessConfig) {
             window.BusinessConfig.openWhatsApp(message);
