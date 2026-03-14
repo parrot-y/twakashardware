@@ -34,10 +34,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         currentIndex = index;
 
-        // Move the container
-        if (slideContainer) {
-            slideContainer.style.transform = `translateX(-${currentIndex * (100 / slides.length)}%)`;
-        }
 
         // Handle active classes for dots and animations
         slides.forEach((slide, i) => {
