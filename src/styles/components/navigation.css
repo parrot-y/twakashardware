@@ -22,19 +22,23 @@
     justify-content: center;
     flex: 0 0 240px;
     background: transparent;
-    padding: 10px 30px;
+    padding: 10px 20px;
     text-decoration: none;
     z-index: 5;
 }
 
-.header-logo-col img {
+.header-logo-img {
     height: 120px;
     width: auto;
     object-fit: contain;
     display: block;
-    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.4));
-    mix-blend-mode: multiply;
-    /* Removes white background from logo image */
+    filter: drop-shadow(0 0 15px rgba(255, 255, 255, 0.4)) drop-shadow(0 0 30px rgba(184, 134, 11, 0.2));
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.header-logo-col:hover .header-logo-img {
+    transform: scale(1.05);
+    filter: drop-shadow(0 0 20px rgba(255, 255, 255, 0.6)) drop-shadow(0 0 40px rgba(184, 134, 11, 0.4));
 }
 
 /* ---- Banner Column ---- */
@@ -699,7 +703,7 @@
         padding: 4px 8px;
     }
 
-    .header-logo-col img {
+    .header-logo-img {
         height: 56px;
     }
 
