@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const slideContainer = document.getElementById('heroSlides');
     let currentIndex = 0;
     let intervalId;
-    const INTERVAL = 5000; // 5 seconds per slide for a smoother feel
+    const INTERVAL = 3000; // 3 seconds per slide for faster shuffling
 
     function handleVideoState(slide, shouldPlay) {
         const video = slide.querySelector('video');

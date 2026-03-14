@@ -10,7 +10,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/BASCO VALUE PERMAFLAT PLUS EMULSION 20L.jpg",
         images: ["assets/images/products/hardware/BASCO VALUE PERMAFLAT PLUS EMULSION 20L.jpg"],
         brand: "Basco",
-        specs: {"Brand": "Basco"}
+        specs: { "Brand": "Basco" }
     },
     {
         id: "HW-PAI-002",
@@ -23,7 +23,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/BASCO VALUE PERMAFLAT PLUS EMULSION.jpg",
         images: ["assets/images/products/hardware/BASCO VALUE PERMAFLAT PLUS EMULSION.jpg"],
         brand: "Basco",
-        specs: {"Brand": "Basco"}
+        specs: { "Brand": "Basco" }
     },
     {
         id: "HW-PAI-003",
@@ -36,7 +36,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CAPAROL CAPAPLUS HIUGH SHEEN.jpg",
         images: ["assets/images/products/hardware/CAPAROL CAPAPLUS HIUGH SHEEN.jpg"],
         brand: "Caparol",
-        specs: {"Brand": "Caparol"}
+        specs: { "Brand": "Caparol" }
     },
     {
         id: "HW-PAI-004",
@@ -49,7 +49,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CAPAROL.jpg",
         images: ["assets/images/products/hardware/CAPAROL.jpg"],
         brand: "Caparol",
-        specs: {"Brand": "Caparol"}
+        specs: { "Brand": "Caparol" }
     },
     {
         id: "HW-PAI-005",
@@ -62,7 +62,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN AQUA GLOW 4L.jpg",
         images: ["assets/images/products/hardware/CROWN AQUA GLOW 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-006",
@@ -75,7 +75,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN COVERMATT 20L.jpg",
         images: ["assets/images/products/hardware/CROWN COVERMATT 20L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-007",
@@ -88,7 +88,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN COVERMATT 4L.jpg",
         images: ["assets/images/products/hardware/CROWN COVERMATT 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-008",
@@ -101,7 +101,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN EMULSION UNDERCOAT.jpg",
         images: ["assets/images/products/hardware/CROWN EMULSION UNDERCOAT.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-009",
@@ -114,7 +114,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN PERMAPLAST 20L.jpg",
         images: ["assets/images/products/hardware/CROWN PERMAPLAST 20L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-010",
@@ -127,7 +127,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN PERMAPLAST 4L.jpg",
         images: ["assets/images/products/hardware/CROWN PERMAPLAST 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-011",
@@ -140,7 +140,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN RUFF n TUFF 30KG.jpg",
         images: ["assets/images/products/hardware/CROWN RUFF n TUFF 30KG.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-012",
@@ -153,7 +153,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN SILK VINYL EMULSION 20L.jpg",
         images: ["assets/images/products/hardware/CROWN SILK VINYL EMULSION 20L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-013",
@@ -166,7 +166,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN SILK VINYL EMULSION 4L.jpg",
         images: ["assets/images/products/hardware/CROWN SILK VINYL EMULSION 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-014",
@@ -179,7 +179,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN STRONGHOLD.jpg",
         images: ["assets/images/products/hardware/CROWN STRONGHOLD.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-015",
@@ -192,7 +192,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN SUPERGLOSS 4L.jpg",
         images: ["assets/images/products/hardware/CROWN SUPERGLOSS 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-016",
@@ -205,7 +205,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN TRANSEAL 4L.jpg",
         images: ["assets/images/products/hardware/CROWN TRANSEAL 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-017",
@@ -218,7 +218,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN ULTRAGUARD SILICONE 20L.jpg",
         images: ["assets/images/products/hardware/CROWN ULTRAGUARD SILICONE 20L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-018",
@@ -231,7 +231,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN ULTRAGUARD SILICONE 4L.jpg",
         images: ["assets/images/products/hardware/CROWN ULTRAGUARD SILICONE 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-019",
@@ -244,7 +244,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN UNIVERSAL UNDERCOAT.jpg",
         images: ["assets/images/products/hardware/CROWN UNIVERSAL UNDERCOAT.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-020",
@@ -257,7 +257,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN VESTA GLOSS 4L.jpg",
         images: ["assets/images/products/hardware/CROWN VESTA GLOSS 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-021",
@@ -270,7 +270,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN VESTYA METAL PRIMER.jpg",
         images: ["assets/images/products/hardware/CROWN VESTYA METAL PRIMER.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-022",
@@ -283,7 +283,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN VINYL MATT EMULSION LUXURY 20L.jpg",
         images: ["assets/images/products/hardware/CROWN VINYL MATT EMULSION LUXURY 20L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-023",
@@ -296,7 +296,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN VINYL MATT EMULSION LUXURY 4L.jpg",
         images: ["assets/images/products/hardware/CROWN VINYL MATT EMULSION LUXURY 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-024",
@@ -309,7 +309,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN WALPLAST SKIM COAT.jpg",
         images: ["assets/images/products/hardware/CROWN WALPLAST SKIM COAT.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-025",
@@ -322,7 +322,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN WOOD MASTER 4L.jpg",
         images: ["assets/images/products/hardware/CROWN WOOD MASTER 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-026",
@@ -335,7 +335,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN WOOD MASTER MULTIPURPOSE VARNISH 4L.jpg",
         images: ["assets/images/products/hardware/CROWN WOOD MASTER MULTIPURPOSE VARNISH 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-027",
@@ -348,7 +348,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/CROWN WOOD MASTER POLYURETHANE CLEAR VANISH 4L.jpg",
         images: ["assets/images/products/hardware/CROWN WOOD MASTER POLYURETHANE CLEAR VANISH 4L.jpg"],
         brand: "Crown Paints",
-        specs: {"Brand": "Crown Paints"}
+        specs: { "Brand": "Crown Paints" }
     },
     {
         id: "HW-PAI-028",
@@ -361,7 +361,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DR FIX IT SURE SEAL.jpg",
         images: ["assets/images/products/hardware/DR FIX IT SURE SEAL.jpg"],
         brand: "Generic",
-        specs: {"Brand": "Generic"}
+        specs: { "Brand": "Generic" }
     },
     {
         id: "HW-PAI-029",
@@ -374,7 +374,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURA COAT WEATHERCOAT 20L.jpg",
         images: ["assets/images/products/hardware/DURA COAT WEATHERCOAT 20L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-030",
@@ -387,7 +387,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT ACRYLIC SEALER 4L.jpg",
         images: ["assets/images/products/hardware/DURACOAT ACRYLIC SEALER 4L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-031",
@@ -400,7 +400,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT FLOOR PAINT 4L.jpg",
         images: ["assets/images/products/hardware/DURACOAT FLOOR PAINT 4L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-032",
@@ -413,7 +413,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT PU FOAM .jpg",
         images: ["assets/images/products/hardware/DURACOAT PU FOAM .jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-033",
@@ -426,7 +426,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT REAL ROC 30KG.jpg",
         images: ["assets/images/products/hardware/DURACOAT REAL ROC 30KG.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-034",
@@ -439,7 +439,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT ROOF PAINT 4L.jpg",
         images: ["assets/images/products/hardware/DURACOAT ROOF PAINT 4L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-035",
@@ -452,7 +452,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT ROOFTEC ROOF PAINT 4L.jpg",
         images: ["assets/images/products/hardware/DURACOAT ROOFTEC ROOF PAINT 4L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-036",
@@ -465,7 +465,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT SILICONE EXTERIOR EMULSION 20L.jpg",
         images: ["assets/images/products/hardware/DURACOAT SILICONE EXTERIOR EMULSION 20L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-037",
@@ -478,7 +478,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT SILICONE EXTERIOR EMULSION 4L.jpg",
         images: ["assets/images/products/hardware/DURACOAT SILICONE EXTERIOR EMULSION 4L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-038",
@@ -491,7 +491,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT SKIM COAT.jpg",
         images: ["assets/images/products/hardware/DURACOAT SKIM COAT.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-039",
@@ -504,7 +504,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT SUPERFAST .jpg",
         images: ["assets/images/products/hardware/DURACOAT SUPERFAST .jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-040",
@@ -517,7 +517,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT SUPERFAST.jpg",
         images: ["assets/images/products/hardware/DURACOAT SUPERFAST.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-041",
@@ -530,7 +530,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT SUPERGLOSS 4L.jpg",
         images: ["assets/images/products/hardware/DURACOAT SUPERGLOSS 4L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-042",
@@ -543,7 +543,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT VINYL SILK 4L.jpg",
         images: ["assets/images/products/hardware/DURACOAT VINYL SILK 4L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-043",
@@ -556,7 +556,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/DURACOAT WOODTECH 4L.jpg",
         images: ["assets/images/products/hardware/DURACOAT WOODTECH 4L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-PAI-044",
@@ -569,7 +569,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/Duracoat Duraplast 4L.jpg",
         images: ["assets/images/products/hardware/Duracoat Duraplast 4L.jpg"],
         brand: "DuraCoat",
-        specs: {"Brand": "DuraCoat"}
+        specs: { "Brand": "DuraCoat" }
     },
     {
         id: "HW-BUI-045",
@@ -582,7 +582,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/GYPROC.jpg",
         images: ["assets/images/products/hardware/GYPROC.jpg"],
         brand: "Generic",
-        specs: {"Brand": "Generic"}
+        specs: { "Brand": "Generic" }
     },
     {
         id: "HW-PAI-046",
@@ -595,7 +595,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/ROBBIALAC VINYL SILK EMULSION.jpg",
         images: ["assets/images/products/hardware/ROBBIALAC VINYL SILK EMULSION.jpg"],
         brand: "Berger",
-        specs: {"Brand": "Berger"}
+        specs: { "Brand": "Berger" }
     },
     {
         id: "HW-TOO-047",
@@ -608,7 +608,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/ROLLER COVER.jpg",
         images: ["assets/images/products/hardware/ROLLER COVER.jpg"],
         brand: "Generic",
-        specs: {"Brand": "Generic"}
+        specs: { "Brand": "Generic" }
     },
     {
         id: "HW-PAI-048",
@@ -621,7 +621,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/SPECIAL EFFECTS.jpg",
         images: ["assets/images/products/hardware/SPECIAL EFFECTS.jpg"],
         brand: "Generic",
-        specs: {"Brand": "Generic"}
+        specs: { "Brand": "Generic" }
     },
     {
         id: "HW-PAI-049",
@@ -634,7 +634,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/TEXTURZ 30KGS.jpg",
         images: ["assets/images/products/hardware/TEXTURZ 30KGS.jpg"],
         brand: "Generic",
-        specs: {"Brand": "Generic"}
+        specs: { "Brand": "Generic" }
     },
     {
         id: "HW-PAI-050",
@@ -647,7 +647,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/ULTIMA AQUA GLOSS ENAMEL 4L.jpg",
         images: ["assets/images/products/hardware/ULTIMA AQUA GLOSS ENAMEL 4L.jpg"],
         brand: "Generic",
-        specs: {"Brand": "Generic"}
+        specs: { "Brand": "Generic" }
     },
     {
         id: "HW-PAI-051",
@@ -660,7 +660,7 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/WOODTECH NC SANDING SEALER 4L.jpg",
         images: ["assets/images/products/hardware/WOODTECH NC SANDING SEALER 4L.jpg"],
         brand: "Generic",
-        specs: {"Brand": "Generic"}
+        specs: { "Brand": "Generic" }
     },
     {
         id: "HW-PAI-052",
@@ -673,7 +673,72 @@ const HardwareProducts = [
         image: "assets/images/products/hardware/WOODTECH TIMBEREX 5L.jpg",
         images: ["assets/images/products/hardware/WOODTECH TIMBEREX 5L.jpg"],
         brand: "Generic",
-        specs: {"Brand": "Generic"}
+        specs: { "Brand": "Generic" }
+    },
+    {
+        id: "HW-BUI-053",
+        category: "Building Materials",
+        name: "Crownplast Waterproof Skimcoat",
+        description: "High-performance waterproof skimcoat by Crown, ideal for exterior and interior building surfaces.",
+        price: "Ask for Price",
+        rating: 4.9,
+        stock: 50,
+        image: "assets/images/products/hardware/CROWNPLAST WATERPROOF SKIMCOAT.jpg",
+        images: ["assets/images/products/hardware/CROWNPLAST WATERPROOF SKIMCOAT.jpg"],
+        brand: "Crown Paints",
+        specs: { "Brand": "Crown Paints" }
+    },
+    {
+        id: "HW-PAI-054",
+        category: "Paints & Finishes",
+        name: "Crown Rain Protek",
+        description: "Advanced weather protection paint by Crown, designed to withstand heavy rain and moisture.",
+        price: "Ask for Price",
+        rating: 4.8,
+        stock: 40,
+        image: "assets/images/products/hardware/CROWN RAIN PROTEK.jpg",
+        images: ["assets/images/products/hardware/CROWN RAIN PROTEK.jpg"],
+        brand: "Crown Paints",
+        specs: { "Brand": "Crown Paints" }
+    },
+    {
+        id: "HW-PAI-055",
+        category: "Building Materials",
+        name: "Dr Fix It Pidiproof",
+        description: "Integral liquid waterproofing compound for cement mortar and concrete.",
+        price: "Ask for Price",
+        rating: 4.7,
+        stock: 60,
+        image: "assets/images/products/hardware/DR FIX IT PIDIPROOF.jpg",
+        images: ["assets/images/products/hardware/DR FIX IT PIDIPROOF.jpg"],
+        brand: "Dr Fix It",
+        specs: { "Brand": "Dr Fix It" }
+    },
+    {
+        id: "HW-PAI-056",
+        category: "Building Materials",
+        name: "Dr Fix It Super Latex",
+        description: "SBR based modifier for repair and waterproofing. Multi-purpose latex for cementitious compositions.",
+        price: "Ask for Price",
+        rating: 4.8,
+        stock: 45,
+        image: "assets/images/products/hardware/DR FIX IT SUPER LATEX.jpg",
+        images: ["assets/images/products/hardware/DR FIX IT SUPER LATEX.jpg"],
+        brand: "Dr Fix It",
+        specs: { "Brand": "Dr Fix It" }
+    },
+    {
+        id: "HW-PAI-057",
+        category: "Paints & Finishes",
+        name: "DuraCoat Aqua Tech Rainshield",
+        description: "DuraCoat's premium rain protection system for long-lasting exterior water resistance.",
+        price: "Ask for Price",
+        rating: 4.9,
+        stock: 35,
+        image: "assets/images/products/hardware/DURACOAT AQUA TECH RAINSHIELD.jpg",
+        images: ["assets/images/products/hardware/DURACOAT AQUA TECH RAINSHIELD.jpg"],
+        brand: "DuraCoat",
+        specs: { "Brand": "DuraCoat" }
     },
 ];
 
